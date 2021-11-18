@@ -7,6 +7,7 @@ const Create = () => {
     const [title, setTitle] = useState('')
     const [body, setBody] = useState('')
     const [author, setAuthor] = useState('none')
+
     const [successMessage, setSuccessMessage] = useState('')
     const [failedMessage, setFailedMessage] = useState('')
 
