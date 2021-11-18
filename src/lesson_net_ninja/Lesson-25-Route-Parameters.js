@@ -2,7 +2,6 @@ import Navbar from './components/Navbar'
 import Home from './Home'
 import Create from './components/Create'
 import BlogDetails from './components/shared/BlogDetails.Component'
-import NotFoundPage from './middleware/NotFoundPage'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 function App() {
@@ -20,9 +19,6 @@ function App() {
             </Route>
             <Route path="/blog-details/:blogID" >
               <BlogDetails />
-            </Route>
-            <Route path="*" >
-              <NotFoundPage />
             </Route>
           </Switch>
         </div>
