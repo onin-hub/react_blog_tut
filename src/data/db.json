@@ -1,0 +1,16 @@
+{
+  "blogs": [
+    {
+      "title": "Web dev top tips",
+      "body": "lorem ipsum..., lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...lorem ipsum...",
+      "author": "Mario",
+      "id": 3
+    },
+    {
+      "title": "Trust your Self",
+      "body": "Dont Listen to other",
+      "author": "Mario",
+      "id": 4
+    }
+  ]
+}
